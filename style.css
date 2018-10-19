@@ -5,6 +5,23 @@ box-sizing: border-box;
 font-family: 'Montserrat', sans-serif;
 }
 
+.fl_lft{
+  float: left;
+}
+
+.fl_rgt{
+  float: right;
+}
+
+
+.container:after {
+ content: "";
+ display: table;
+ clear: both;
+}
+
+
+
 /* QUI COMINCIA L'header */
 
 .header{
@@ -15,43 +32,62 @@ border-bottom: 1px solid #cbd6e2;
 color: #33475F;
 }
 
+
+.header_cont div {
+float: left;
+
+}
+
+/* Inizio Section language */
+
 .language{
   height: 100%;
-  width: 15%;
+  width: auto;
+  font-size: 16px;
 
 }
 
 .language i{
-float: left;
-line-height: 70px;
+  float: left;
+  line-height: 70px;
 }
 
 .language p{
-float: left;
-line-height: 70px;
-display: inline-block;
-margin-left: 20px;
-margin-right: 20px;
+  float: left;
+  line-height: 70px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .fa-angle-down{
 color: grey;
 }
 
-.language::after {
+.language:after {
     line-height: 70px;
     margin-left: 20px;
+    margin-right: 20px;
     color: lightgrey;
     font-size: 20px;
     float: left;
     content: '|';
 }
 
+/* Fine Section language */
+
+/* Inizio Section tel */
+
 .tel{
   height: 100%;
   width: 20%;
-  background: blue;
+  line-height: 70px;
+  font-size: 16px;
 }
+
+/* Inizio Section tel */
+
+/* Inizio Section sign */
 
 .sign{
   height: 100%;
@@ -59,10 +95,8 @@ color: grey;
   background: green;
 }
 
-.header_cont div {
-float: left;
+/* Fine Section sign */
 
-}
 
 
 
