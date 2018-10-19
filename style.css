@@ -24,7 +24,7 @@ font-family: 'Montserrat', sans-serif;
 
 .header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
   height: 100%;
-  width: 60%;
+  width: 50%;
   margin: auto;
 }
 
@@ -90,7 +90,12 @@ color: grey;
 
 .sign{
   height: 100%;
-  width:60%;
+  width: auto;
+}
+
+.sign i{
+line-height: 70px;
+color: #46bdcf;
 }
 
 .orange_botton{
@@ -113,6 +118,7 @@ border: 1px solid #ff7a59;
 margin-right: 20px;
 border-radius: 6px;
 text-align: center;
+margin-left: 20px;
 }
 
 .sign a{
