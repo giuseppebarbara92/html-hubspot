@@ -20,22 +20,22 @@ font-family: 'Montserrat', sans-serif;
  clear: both;
 }
 
+/* regola comune per i contenitori */
 
+.header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
+  height: 100%;
+  width: 60%;
+  margin: auto;
+}
 
 /* QUI COMINCIA L'header */
 
 .header{
-height: 70px;
-width: 100%;
-background-color: #f5f8fa;
-border-bottom: 1px solid #cbd6e2;
-color: #33475F;
-}
-
-
-.header_cont div {
-float: left;
-
+  height: 70px;
+  width: 100%;
+  background-color: #f5f8fa;
+  border-bottom: 1px solid #cbd6e2;
+  color: #33475F;
 }
 
 /* Inizio Section language */
@@ -44,7 +44,6 @@ float: left;
   height: 100%;
   width: auto;
   font-size: 16px;
-
 }
 
 .language i{
@@ -65,13 +64,13 @@ color: grey;
 }
 
 .language:after {
-    line-height: 70px;
-    margin-left: 20px;
-    margin-right: 20px;
-    color: lightgrey;
-    font-size: 20px;
-    float: left;
-    content: '|';
+  line-height: 70px;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: lightgrey;
+  font-size: 20px;
+  float: left;
+  content: '|';
 }
 
 /* Fine Section language */
@@ -80,7 +79,7 @@ color: grey;
 
 .tel{
   height: 100%;
-  width: 20%;
+  width: auto;
   line-height: 70px;
   font-size: 16px;
 }
@@ -91,9 +90,49 @@ color: grey;
 
 .sign{
   height: 100%;
-  width: 60%;
-  background: green;
+  width:60%;
 }
+
+.orange_botton{
+height: 36px;
+width: 150px;
+position: relative;
+top: 18px;
+background: #ff7a59;
+color: white;
+border-radius: 6px;
+text-align: center;
+}
+
+.white_botton{
+height: 36px;
+width: 60px;
+position: relative;
+top: 18px;
+border: 1px solid #ff7a59;
+margin-right: 20px;
+border-radius: 6px;
+text-align: center;
+}
+
+.sign a{
+font-size: 12px;
+text-decoration: none;
+text-align: center;
+line-height: 36px;
+}
+
+.white_botton a{
+color: #ff7a59;
+}
+
+.orange_botton a{
+color: white;
+}
+
+
+
+
 
 /* Fine Section sign */
 
@@ -171,12 +210,4 @@ background-color: white;
 height: 570px;
 width: 100%;
 background-color: #33475b;
-}
-
-/* regola comune per i contenitori */
-
-.header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
-  height: 100%;
-  width: 70%;
-  margin: auto;
 }
