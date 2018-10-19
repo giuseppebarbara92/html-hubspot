@@ -15,6 +15,65 @@ border-bottom: 1px solid #cbd6e2;
 color: #33475F;
 }
 
+.language{
+  height: 100%;
+  width: 15%;
+
+}
+
+.language i{
+float: left;
+line-height: 70px;
+}
+
+.language p{
+float: left;
+line-height: 70px;
+display: inline-block;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+.fa-angle-down{
+color: grey;
+}
+
+.language::after {
+    line-height: 70px;
+    margin-left: 20px;
+    color: lightgrey;
+    font-size: 20px;
+    float: left;
+    content: '|';
+}
+
+.tel{
+  height: 100%;
+  width: 20%;
+  background: blue;
+}
+
+.sign{
+  height: 100%;
+  width: 60%;
+  background: green;
+}
+
+.header_cont div {
+float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
+
 /* QUI COMINCIA IL nav */
 
 .nav{
