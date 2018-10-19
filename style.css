@@ -1,0 +1,87 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+}
+
+/* QUI COMINCIA L'header */
+
+.header{
+height: 70px;
+width: 100%;
+background-color: #f5f8fa;
+border-bottom: 1px solid #cbd6e2;
+}
+
+/* QUI COMINCIA IL nav */
+
+.nav{
+height: 160px;
+width: 100%;
+background-color: white;
+}
+
+/* QUI COMINCIA LA bar_blue */
+
+.bar_blue{
+height: 100px;
+width: 100%;
+background-color: #2D3E50;
+}
+
+/* QUI COMINCIA top */
+
+.top{
+height: 600px;
+width: 100%;
+background-image: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
+border-bottom: 4px solid #33475b;
+}
+
+/* QUI COMINCIA middle */
+
+.middle{
+height: 1500px;
+width: 100%;
+background-color: #F5F8FA;
+}
+
+/* QUI COMINCIA green_table */
+
+.green_table{
+height: 1000px;
+width: 100%;
+background-image: linear-gradient(to right, #09A7BF,#00BDA5);
+}
+
+/* QUI COMINCIA partners */
+
+.partners{
+height: 400px;
+width: 100%;
+background-color: white;
+}
+
+/* QUI COMINCIA foto_part */
+
+.foto_part{
+height: 400px;
+width: 100%;
+background-color: white;
+}
+
+/* QUI COMINCIA footer */
+
+.footer{
+height: 570px;
+width: 100%;
+background-color: #33475b;
+}
+
+/* regola comune per i contenitori */
+
+.header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
+  height: 100%;
+  width: 70%;
+  margin: auto;
+}
