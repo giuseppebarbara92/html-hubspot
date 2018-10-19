@@ -2,6 +2,7 @@
 margin: 0px;
 padding: 0px;
 box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
 }
 
 /* QUI COMINCIA L'header */
@@ -11,6 +12,7 @@ height: 70px;
 width: 100%;
 background-color: #f5f8fa;
 border-bottom: 1px solid #cbd6e2;
+color: #33475F;
 }
 
 /* QUI COMINCIA IL nav */
