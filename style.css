@@ -232,9 +232,12 @@ top: 25%;
   padding-right: 20px;
   border-radius: 6px;
   background-color: white;
+  color: #33475F;
 }
 
-#btn_bluebar:hover {
+/* bottone hover arancione */
+
+.btn:hover {
 color: white;
 background-color: #ff7a59;
 cursor: pointer;
@@ -244,10 +247,46 @@ cursor: pointer;
 /* QUI COMINCIA top */
 
 .top{
-height: 600px;
-width: 100%;
-background-image: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
-border-bottom: 4px solid #33475b;
+  height: 600px;
+  width: 100%;
+  background-image: -webkit-linear-gradient(left, #09A7BF, rgba(18, 182, 207, 0.55));
+  background-image: -o-linear-gradient(left, #09A7BF, rgba(18, 182, 207, 0.55));
+  background-image: linear-gradient(to right, #09A7BF, rgba(18, 182, 207, 0.55));
+  border-bottom: 4px solid #33475b;
+}
+
+.top_left_cont{
+height: 100%;
+width: 50%;
+color: white;
+}
+
+.top_left_cont h1{
+font-size: 55px;
+display: inline-block;
+margin-top: 50px;
+margin-bottom: 40px;
+}
+
+.top_left_cont a{
+background-color: white;
+padding:20px 20px;
+border-radius: 6px;
+color: #33475F;
+text-decoration: none;
+display: inline-block;
+margin-bottom: 60px;
+}
+
+#paragrafo_top{
+font-size: 20px;
+line-height: 26px;
+margin-bottom: 60px;
+}
+
+#paragrafo_bottom{
+font-size: 14px;
+line-height: 18px;
 }
 
 /* QUI COMINCIA middle */
