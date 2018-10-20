@@ -218,34 +218,27 @@ color: white;
 }
 
 .btm_learn{
-  height: 50%;
-  width: 50%;
-  background: white;
-  position: absolute;
-  left: 50%;
-  top: 25%;
-  text-align: center;
-  border-radius: 6px;
-}
+height: 50px;
+width: 100%;
+position: relative;
+top: 25%;
 
+}
 .btm_learn a{
   text-decoration: none;
-  font-size: 14px;
+  float: right;
   line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 6px;
+  background-color: white;
 }
 
 .btm_learn:hover a{
 color: white;
-}
-
-.btm_learn:hover{
 background-color: #ff7a59;
 cursor: pointer;
 }
-
-
-
-
 
 
 /* QUI COMINCIA top */
