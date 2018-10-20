@@ -219,7 +219,7 @@ color: white;
 
 .btm_learn{
 height: 50px;
-width: 100%;
+width: auto;
 position: relative;
 top: 25%;
 
@@ -234,7 +234,7 @@ top: 25%;
   background-color: white;
 }
 
-.btm_learn:hover a{
+#btn_bluebar:hover {
 color: white;
 background-color: #ff7a59;
 cursor: pointer;
