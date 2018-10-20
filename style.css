@@ -24,7 +24,7 @@ font-family: 'Montserrat', sans-serif;
 
 .header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
   height: 100%;
-  width: 50%;
+  width: 60%;
   margin: auto;
 }
 
@@ -105,6 +105,13 @@ border-radius: 6px;
 text-align: center;
 }
 
+/* Tasto arancione al passaggio del mouse */
+
+.orange_botton:hover {
+  background-color: #ff957b;
+  cursor: pointer;
+}
+
 .white_botton{
 height: 36px;
 width: 60px;
@@ -132,6 +139,7 @@ color: #ff7a59;
 .orange_botton a{
 color: white;
 }
+
 
 /* Fine header */
 
@@ -177,25 +185,68 @@ float: left;
   margin-right: 20px;
 }
 
+/* Fine menu */
 
-
-
-
-
-
-
-
-
-
-
-
-/* QUI COMINCIA LA bar_blue */
+/* Qui comincia la bar_blue */
 
 .bar_blue{
 height: 100px;
 width: 100%;
 background-color: #2D3E50;
+color: white;
 }
+
+.bar_notice{
+  height: 100px;
+  width: 70%;
+  font-size: 14px;
+  float: left;
+  position: relative;
+}
+
+.bar_notice p{
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.learn{
+  height: 100%;
+  width: 30%;
+  float: right;
+  position: relative;
+}
+
+.btm_learn{
+  height: 50%;
+  width: 50%;
+  background: white;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.btm_learn a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 50px;
+}
+
+.btm_learn:hover a{
+color: white;
+}
+
+.btm_learn:hover{
+background-color: #ff7a59;
+cursor: pointer;
+}
+
+
+
+
+
 
 /* QUI COMINCIA top */
 
