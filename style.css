@@ -38,7 +38,7 @@ font-family: 'Montserrat', sans-serif;
   color: #33475F;
 }
 
-/* Inizio Section language */
+/* Header inizio Section language */
 
 .language{
   height: 100%;
@@ -73,9 +73,7 @@ color: grey;
   content: '|';
 }
 
-/* Fine Section language */
-
-/* Inizio Section tel */
+/* Header inizio Section tel */
 
 .tel{
   height: 100%;
@@ -84,9 +82,7 @@ color: grey;
   font-size: 16px;
 }
 
-/* Inizio Section tel */
-
-/* Inizio Section sign */
+/* Header inizio Section sign */
 
 .sign{
   height: 100%;
@@ -114,6 +110,7 @@ height: 36px;
 width: 60px;
 position: relative;
 top: 18px;
+background: white;
 border: 1px solid #ff7a59;
 margin-right: 20px;
 border-radius: 6px;
@@ -136,30 +133,61 @@ color: #ff7a59;
 color: white;
 }
 
+/* Fine header */
 
-
-
-
-/* Fine Section sign */
-
-
-
-
-
-
-
-
-
-
-
-
-/* QUI COMINCIA IL nav */
+/* Qui inizia il nav */
 
 .nav{
-height: 160px;
-width: 100%;
-background-color: white;
+  height: 100px;
+  width: 100%;
+  background-color: white;
 }
+
+.logo{
+  height: 100%;
+  width: 12%;
+  float: left;
+  line-height: 100px;
+  position: relative;
+}
+
+.logo img{
+width: 100%;
+position: absolute;
+top: 50%;
+transform: translate(0, -50%);
+}
+
+.menu{
+width: 88%;
+height: 100%;
+float: left;
+}
+
+.menu i{
+  float: right;
+  line-height: 100px;
+}
+
+.menu p{
+  float: right;
+  line-height: 100px;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* QUI COMINCIA LA bar_blue */
 
