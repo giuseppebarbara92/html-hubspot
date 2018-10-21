@@ -289,13 +289,48 @@ font-size: 14px;
 line-height: 18px;
 }
 
+
 /* QUI COMINCIA middle */
 
 .middle{
 height: 1500px;
 width: 100%;
 background-color: #F5F8FA;
+text-align: center;
+color: #2D3E50;
 }
+
+.middle_cont > img{
+width: 30%;
+margin-top: 40px;
+margin-bottom: 20px;
+}
+
+.middle_cont h1{
+font-size: 40px;
+font-weight: bolder;
+}
+
+.middle_cont p{
+margin-top: 20px;
+font-size: 20px;
+line-height: 26px;
+}
+
+.middle_section1{
+width: 100%;
+height: 300px;
+background: white;
+border-radius: 6px;
+box-shadow: 0px 0px 30px 3px rgba(207,207,207,0.58);
+margin-top: 60px;
+}
+
+
+
+
+
+
 
 /* QUI COMINCIA green_table */
 
