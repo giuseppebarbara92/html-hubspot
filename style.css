@@ -19,6 +19,27 @@ font-family: 'Montserrat', sans-serif;
  clear: both;
 }
 
+.titolo {
+font-size: 36px;
+font-weight: 700;
+}
+
+.big_title {
+font-size: 50px;
+font-weight: 900;
+}
+
+.paragrafo_superiore{
+  font-size: 20px;
+  line-height: 26px;
+}
+
+.paragrafo_inferiore{
+  font-size: 10px;
+  line-height: 14px;
+}
+
+
 /* regola comune per i contenitori */
 
 .header_cont, .nav_cont, .bar_cont, .top_cont, .middle_cont, .green_cont, .partners_cont, .foto_cont, .footer_cont{
@@ -246,7 +267,7 @@ cursor: pointer;
 /* QUI COMINCIA top */
 
 .top{
-  height: 600px;
+  height: 550px;
   width: 100%;
   background-image: -webkit-linear-gradient(left, #09A7BF, rgba(18, 182, 207, 0.55));
   background-image: -o-linear-gradient(left, #09A7BF, rgba(18, 182, 207, 0.55));
@@ -254,39 +275,29 @@ cursor: pointer;
   border-bottom: 4px solid #33475b;
 }
 
-.top_left_cont{
+.half_topcont{
+padding-top: 50px;
 height: 100%;
 width: 50%;
 color: white;
 }
 
-.top_left_cont h1{
-font-size: 55px;
-display: inline-block;
+.half_topcont p{
 margin-top: 50px;
-margin-bottom: 40px;
 }
 
-.top_left_cont a{
+
+
+.half_topcont a{
+margin-top: 50px;
+padding: 20px 20px;
 background-color: white;
-padding:20px 20px;
-border-radius: 6px;
+display: inline-block;
 color: #33475F;
 text-decoration: none;
-display: inline-block;
-margin-bottom: 60px;
+border-radius: 6px;
 }
 
-.paragrafo_top{
-font-size: 20px;
-line-height: 26px;
-margin-bottom: 50px;
-}
-
-.paragrafo_bottom{
-font-size: 14px;
-line-height: 18px;
-}
 
 
 /* QUI COMINCIA middle */
@@ -305,15 +316,8 @@ margin-top: 50px;
 margin-bottom: 20px;
 }
 
-.middle_cont h1{
-font-size: 40px;
-font-weight: bolder;
-}
-
 .middle_cont p{
 margin-top: 20px;
-font-size: 20px;
-line-height: 26px;
 margin-bottom: 50px;
 }
 
@@ -380,34 +384,45 @@ height: 500px;
 width: 100%;
 color: #33475F;
 }
-.foto_part_text{
+
+.foto_part_half{
 height: 400px;
 width: 50%;
 margin-top: 50px;
 }
 
-.foto_part_text h1{
-font-size: 40px;
-}
 
-.foto_part_text p{
-  margin-top: 20px;
+.foto_part_half p{
   margin-top: 50px;
-  margin-bottom: 50px;
-}
-
-.foto_part_text a{
-padding: 20px 20px;
-color: white;
-text-decoration: none;
-background-color: #ff7a59;
-border-radius: 6px;
-margin-bottom: 20px;
 }
 
 
+.foto_part_half a{
+  margin-top: 60px;
+  margin-bottom: 25px;
+  padding: 20px 20px;
+  background-color: #ff7a59;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
 
+.foto_circle{
+  width:398px;
+	height:398px;
+	border-radius:100%;
+  background: #F2547D;
+  border: 3px solid #F2547D;
+  float: right;
+  overflow: hidden;
+}
 
+.foto_circle img{
+  width: 100%;
+  position: relative;
+  bottom: 50px;
+}
 
 
 /* QUI COMINCIA footer */
