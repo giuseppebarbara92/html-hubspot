@@ -367,6 +367,39 @@ margin-left: 5%;
 height: 1000px;
 width: 100%;
 background-image: linear-gradient(to right, #09A7BF,#00BDA5);
+padding-top: 50px;
+text-align: center;
+color: white;
+}
+
+.green_text{
+height: auto;
+width: 100%;
+}
+
+.green_text p{
+margin-top: 25px;
+}
+
+.green_grid{
+width: 100%;
+height: 400px;
+margin-top: 150px;
+}
+
+.inside-element_grid{
+  height: 50%;
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.border_top{
+border-top: 1px solid white;
+}
+
+.border_rgt{
+border-right:1px solid white;
 }
 
 /* QUI COMINCIA partners */
@@ -375,7 +408,51 @@ background-image: linear-gradient(to right, #09A7BF,#00BDA5);
 height: 400px;
 width: 100%;
 background-color: white;
+color: #33475F;
 }
+
+.lft_partners{
+height: 300px;
+width: 30%;
+margin-top: 50px;
+}
+
+.lft_partners h1{
+margin-bottom: 50px;
+}
+
+.rgt-top_partners{
+height: 150px;
+width: 70%;
+margin-top: 50px;
+
+}
+
+.rgt-bottom_partners{
+height: 150px;
+width: 70%;
+
+
+}
+
+
+
+.rgt-top_partners img{
+height: 30px;
+margin-left: 80px;
+margin-top: 100px;
+float: right;
+}
+
+
+.rgt-bottom_partners img{
+height: 20px;
+margin-left:80px;
+margin-top: 25px;
+float: right;
+}
+
+
 
 /* QUI COMINCIA foto_part */
 
