@@ -239,7 +239,7 @@ font-size: 35px;
 
 
 .section-middle{
-background-color: white;
+
 margin: 40px 0;
 border-radius: 8px;
 box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.33);
@@ -252,7 +252,7 @@ padding: 0 100px;
 }
 
 .section-middle-left{
-background-color: pink;
+
 width: 30%;
 text-align: center;
 }
@@ -268,9 +268,60 @@ text-decoration: none;
 }
 
 .section-middle-right{
-background-color: blue;
 width: 70%;
+position: relative;
 }
+
+.content-middle-right-wrapper{
+width: 100%;
+height: auto;
+position:absolute;
+top: 50%;
+left: 0;
+transform: translateY(-50%);
+padding: 0 100px;
+}
+.content-middle-right-wrapper h3{
+font-size: 25px;
+}
+
+.content-middle-right-wrapper p{
+font-size: 12px;
+margin: 16px 0;
+}
+
+.content-middle-right-wrapper span{
+text-transform: uppercase;
+position: relative;
+display: block;
+margin-bottom: 16px;
+}
+
+.content-middle-right-wrapper span::after{
+text-transform: uppercase;
+content: '';
+position: absolute;
+top:9px;
+right:50px;
+background: lightgrey;
+height: 2px;
+width: 50%;
+}
+
+.fa-check-circle.color-orange {
+display: inline-block;
+margin-right: 4px;
+}
+
+.li-circle{
+margin-right: 20px;
+}
+
+.content-middle-right-wrapper li{
+display: inline-block;
+}
+
+
 
 .section-bottom{
 background-color: orange;
