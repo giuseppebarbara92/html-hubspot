@@ -137,5 +137,33 @@ text-decoration: none;
 
 .header-right ul > *{
 margin-left: 15px;
-font-size: 15px;	
+font-size: 15px;
+}
+
+/* DISCLAIMER */
+
+.disclaimer{
+height: 80px;
+width: 100%;
+}
+
+.disclaimer-left, .disclaimer-right{
+height: 100%;
+float: left;
+line-height: 80px;
+}
+
+.disclaimer-left{
+	width: 80%;
+	text-align: center;
+}
+
+.disclaimer-right{
+	width: 20%;
+	text-align: center;
+}
+
+.disclaimer-right a{
+text-decoration: none;
+padding: 12px 24px;
 }
